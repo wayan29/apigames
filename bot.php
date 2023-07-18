@@ -62,7 +62,7 @@ if ($data['status'] == 1) {
 }
 
 // Membaca file data JSON
-$datakode = file_get_contents('data2.json');
+$datakode = file_get_contents('data.json');
 
 // Mendekode data JSON menjadi array
 $dataArray = json_decode($datakode, true);
